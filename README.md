@@ -1,6 +1,6 @@
 <h1 align="center">Mini Netflix</h1>
 
-<p align="center"><img width="400px" alt="coding"  src="../mini-netflix/animate.gif"></p>
+<p align="center"><img width="400px" alt="coding"  src="./animate.gif"></p>
 
 <div>
 
