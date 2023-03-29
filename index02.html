@@ -21,17 +21,50 @@
             </div>
         <!-- Cuerpo principal -->
             <div class="col">
-                <div class="row bg-dark pt-5">
-                    <div class="col-8 p-5 m-3 text-light text-light">
-                    <h3>SERIE</h3>
-                    <h1>NOMBRE DE LA SERIE A PRESENTAR</h1>
-                    <p>En Italia, el deseo de un hombre le da vida mágicamente a un muñeco de madera. Sin embargo, padre e hijo tendrán que sobrevivir al auge del fascismo.</p>
-                    <button type="button" class="btn btn-info">Reproducir</button>
-                </div>
+
+
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="..\mini-netflix\img\p1.png" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h5>PRIMERA PELICULA</h5>
+                                  <p>Some representative placeholder content for the first slide.</p>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <img src="..\mini-netflix\img\p2.png" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h5>SEGUNDA PELICULA</h5>
+                                  <p>Some representative placeholder content for the second slide.</p>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <img src="..\mini-netflix\img\p3.png" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h5>TERCERA PELICULA</h5>
+                                  <p>Some representative placeholder content for the third slide.</p>
+                                </div>
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
                 </div>
 
+                
                 <div class="row text-light p-5">
-                    <p>tendencias</p>
+                    <h5>Tendencias</h5>
                     <div class="col">
                         <div class="card" style="width: 15rem;">
                             <img src="..." class="card-img-top" alt="...">
