@@ -33,3 +33,24 @@ body.dark p{
   background-color: blue;
   
 }
+
+.text{
+  margin-bottom: 20px;
+}
+
+.text button{
+  margin-left: 72%;
+}
+
+
+@media (max-width: 1024px){
+  .text button{
+    margin-left: 15%;
+  }
+}
+
+@media (max-width: 820px){
+  .text button{
+    margin-left: 35%;
+  }
+}
