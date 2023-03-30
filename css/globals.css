@@ -25,3 +25,11 @@ body.dark a {
 body.dark p{
   color: var(--white-two);
 }
+
+
+
+/* -- barra de menu -- */
+.nav-pills li a:hover{
+  background-color: blue;
+  
+}
